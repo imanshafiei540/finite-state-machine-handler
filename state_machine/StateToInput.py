@@ -7,3 +7,12 @@ class StateToInput(object):
         self.current_state = current_state
         self.input_object = input_object
         self.next_state = next_state
+
+    def get_input_object(self):
+        return self.input_object
+    
+    def get_current_state(self):
+        return self.current_state
+    
+    def get_next_state(self):
+        return self.next_state
